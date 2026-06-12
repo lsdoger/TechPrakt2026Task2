@@ -1,4 +1,5 @@
-
+// Модифікація для завдання 6 (TechPrakt2026)
+// Зміна у файлі для виконання Пункту 6
 class User {
     #login;
     #password;
@@ -33,13 +34,13 @@ const user = new User('admin', '123456');
 
 let panelParams = {
     //width : 300,
-    title : 'Title',
-    height : 200,
-    age : 30
+    title: 'Title',
+    height: 200,
+    age: 30
 };
 
-let {title, height} = panelParams;
-let [id, title, count, price] = [1, 'title', 10, 10,5];
+let { title, height } = panelParams;
+let [id, title, count, price] = [1, 'title', 10, 10, 5];
 let x = 1;
 let y = 2;
 [x, y] = [y, x];
